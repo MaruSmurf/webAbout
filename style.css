@@ -1,0 +1,81 @@
+main{
+      margin-left:auto;
+      margin-right:auto;
+      width:900px;
+  }
+ 
+ header{
+ background-image: url(https://raw.githubusercontent.com/green-fox-academy/myfirstapp-syllabus/master/assets/first-website-header.png);
+ background-repeat: no-repeat; 
+ background-size: cover;  
+background-size:120%;
+background-position: top-center;
+height:400px;
+width:auto;
+position:relative;
+  }
+.name{
+  display:flex;
+  position:absolute;
+  left:200px;
+  bottom:30px;
+  font-family: 'Abril Fatface';
+  color:#2e2c2c; 
+  font-size:30px;
+}
+p{
+  font-size:60px;
+margin-left:-200px;
+margin-top:30px;  
+ }
+.text{
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 15px;
+ margin-left:150px;
+  margin-right:150px;
+}
+blockquote{
+  text-align:center;
+  font-family:'Merriweather', italic;
+  background-color:#695d5d;
+  font-size:15px;
+  width:800px;
+  height:100px;
+  color:white;
+  margin-left: -100px;
+  padding-top: 30px;
+  padding-left:50px;
+  position:relative;
+}
+blockquote::before{
+ content:'”';
+ font-size:60px;
+    position:absolute;
+  top:-35px;
+  left:10px;
+  transform:rotate(180deg);
+}
+h2{
+  font-size:30px;
+  margin-bottom:50px;
+  margin-top:50px;
+}
+h3{
+  font-size:25px;
+  font-weight:bold;
+  margin-bottom:0px
+}
+.kursiv{
+  font-size:18px;
+  margin-top:0px;
+}
+li{
+  margin:10px;
+}
+footer{
+  border-top:4px solid black;
+  margin-top:50px;
+  width:800px;  
+  margin-left:-100px;
+  padding-left: 100px;
+}
